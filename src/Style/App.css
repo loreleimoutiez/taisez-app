@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@400;500;600&family=Questrial&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@400;500;600&family=Questrial&family=Staatliches&display=swap");
 @media (min-width: 381px) {
   header {
     position: relative;
@@ -106,6 +107,9 @@
   footer p {
     color: white;
     text-align: center;
+    font-family: "Questrial", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 0;
   }
 }
 @media (max-width: 380px) {
@@ -120,13 +124,15 @@
   }
   footer .dark-dino {
     position: relative;
-    width: 100px;
+    width: 85px;
   }
   footer p {
     color: white;
     text-align: center;
-    font-size: 0.8rem;
-    width: 90%;
+    font-size: 0.9rem;
+    width: 80%;
+    font-family: "Questrial", sans-serif;
+    margin-bottom: 0;
   }
 }
 #root, .App {

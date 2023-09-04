@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@400;500;600&family=Questrial&family=Staatliches&display=swap");
 @media (min-width: 381px) {
   footer {
     flex-shrink: 0;
@@ -29,12 +30,13 @@
   }
   footer .dark-dino {
     position: relative;
-    width: 100px;
+    width: 85px;
   }
   footer p {
     color: white;
     text-align: center;
     font-size: 0.8rem;
     width: 90%;
+    font-family: "Questrial", sans-serif;
   }
 }/*# sourceMappingURL=Footer.css.map */
