@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+}
+header .dino {
+  width: 100px;
+}/*# sourceMappingURL=Navbar.css.map */
