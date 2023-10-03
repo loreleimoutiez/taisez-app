@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@400;500;600&family=Questrial&family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@400;500;600&family=Questrial&family=Staatliches&display=swap");
-@media (min-width: 381px) {
+@media (min-width: 398px) {
   header {
     position: relative;
     top: 40px;
@@ -46,7 +46,7 @@
     text-decoration-color: #378e9d;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 397px) {
   header {
     position: relative;
     top: 20px;
@@ -90,10 +90,10 @@
     text-decoration-color: #378e9d;
   }
 }
-@media (min-width: 381px) {
+@media (min-width: 398px) {
   footer {
     flex-shrink: 0;
-    height: 200px;
+    height: 220px;
     background: #000000;
     display: flex;
     justify-content: center;
@@ -108,11 +108,19 @@
     color: white;
     text-align: center;
     font-family: "Questrial", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 0;
   }
+  footer .socials {
+    padding-top: 1rem;
+  }
+  footer .socials a {
+    color: white;
+    padding: 10px 10px 0px 10px;
+    font-size: 1.5rem;
+  }
 }
-@media (max-width: 380px) {
+@media (max-width: 397px) {
   footer {
     flex-shrink: 0;
     height: 200px;
@@ -130,9 +138,17 @@
     color: white;
     text-align: center;
     font-size: 0.9rem;
-    width: 80%;
+    width: 75%;
     font-family: "Questrial", sans-serif;
     margin-bottom: 0;
+  }
+  footer .socials {
+    padding-top: 1rem;
+  }
+  footer .socials a {
+    color: white;
+    padding: 10px 10px 0px 10px;
+    font-size: 1.5rem;
   }
 }
 #root, .App {

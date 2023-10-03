@@ -8,7 +8,6 @@ const CarouselItem = ({ image, alt }) => {
     )
 }
 
-// toto: changer `thing` selonles éléments du carousel, si c'est des projets, des nouvelles etc je sais pas encore 
 export const Carousel = ({ thing }) => {
     const [activeIndex, setActiveIndex] = useState(0);
 
